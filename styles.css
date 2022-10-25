@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+background-color: black;
+  min-height: 100vh;
+ min-width: fit-content;
+}
+
+
+/*-------NAV-BAR--------------*/
+.header {
+  height: 100%;
+}
+.navbar
+{
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   z-index: 1;
+}
+.navbar {
+  padding: 1em;
+  background-color: #305473;
+  /*Fix bootstrap adding margin-bottom*/
+  margin-bottom: 0;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li a {
+  padding: 0em 0.8em;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+nav li a:visited {
+  color:white;
+  text-decoration:none;
+}
+nav li a:active {
+  color:white;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/*-------Hero--------------*/
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/woman2.jpg");
+  height: 80vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.hero h1,
+h2 {
+  color: white;
+  font-weight: bolder;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-top: 1em;
+}
+.hero h2 {
+  font-size: 2em;
+  padding-top: 0.6250em;
+  padding-bottom:  0.6250em;
+}
+.hero .container {
+  margin-top:20em;
+}
+.hero .info {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  background-color: #2993f5;
+}
+.hero .btn{
+  transition: 1s ease-in-out;
+}
+.hero .btn:hover {
+  background-color: black;
+  color:white;
+  
+
+}
+/*--------------------------About Us-----------------------*/
+.about-us {
+  background-color: #76b3f5;
+  
+}
+.about-us h1 {
+  /*For title*/
+  color: black;
+  font-size: 3em;
+  margin: 0 auto; 
+  font-weight: bold;
+}
+
+.about-us h2 {
+  color: black;
+  font-size: 1.5em;
+  line-height: 2;
+  width: 75%;
+  margin:0 auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+/*--------------------------Services-----------------------*/
+.services {
+  background-color: #69a0db;
+  color: black;
+}
+.services h1 {
+  font-size: 2.8125em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.6250em;
+}
+.services img{
+ display: block;
+ margin: 0 auto;
+}
+.card {
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+.card img {
+  height: 13em;
+  width: 18.75em;
+  border-radius: 0.6255em;
+
+}
+.card-title {
+  font-size: 1.5625em;
+  font-weight: bolder;
+  text-align: center;
+}
+.card-text {
+  font-size: 1.1250em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.card-footer .btn {
+  width: 100%;
+}
+/*--------------------------Contact Form-----------------------*/
+.contact-form {
+  background-color: #5784b5;
+  margin: 0 auto;
+  color: black;
+}
+.contact-form p {
+  font-size: 1.5625em;
+  font-weight: bold;
+}
+.contact-form a p {
+  font-size: 1.2500em;
+  color: black;
+}
+.contact-form li {
+  font-size:  1.2500em;
+  font-weight: bold;
+}
+.contact-form .btn {
+  margin-top:  1.2500em;
+  width: 90%;
+  background-color: black;
+  font-size:  1.2500em;
+  font-weight: bold;
+  margin-bottom: 0.9375em;
+  transition: 1s ease-in-out;
+}
+.contact-form .btn:hover {
+  background-color:white ;
+  color:black;
+
+}
+
+/*--------------------------Footer-----------------------*/
+footer {
+  background-color: #1a2736;
+  height: 3.125em;
+}
+footer p{
+  margin-top: 0.6250em;
+  color: white;
+}
